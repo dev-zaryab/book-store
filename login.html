@@ -1,0 +1,136 @@
+<html>
+
+<head>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="favicon_io/site.webmanifest">
+	<link rel="icon" href="favicon.ico">
+
+	<title>
+		login
+	</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.input {
+			width: 100%;
+			padding: 12px;
+		}
+
+		select {
+			width: 40%;
+			padding: 12px;
+		}
+	</style>
+
+	<script>
+		/*		Disable F12 Key 
+
+		document.onkeypress = function (event) {  
+		event = (event || window.event);  
+		if (event.keyCode == 123) {  
+		return false;  
+		}  
+		}  
+		document.onmousedown = function (event) {  
+		event = (event || window.event);  
+		if (event.keyCode == 123) {  
+		return false;  
+		}  
+		}  
+		document.onkeydown = function (event) {  
+		event = (event || window.event);  
+		if (event.keyCode == 123) {  
+		return false;  
+		}  
+		}   
+*/
+
+		document.onkeydown = function (e) {
+			if (event.keyCode == 123) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+			if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+		}
+	</script>
+
+	<script src="js/jquery.js"> </script>
+	<script src="js/remove-branding.js"> </script>
+
+</head>
+
+<!-- lock keyboard -->
+<script>
+	/* onkeydown="return false;" onmousedown="return false;" */
+</script>
+<!--// lock keyboard -->
+
+<body oncontextmenu="alert('Don\'t Be So Smart!! This function has been disabled'); return false">
+
+	<table width="100%" bgcolor=#044573>
+		<tr>
+			<td width="75%"><a href=#.html style=text-decoration:none;>
+					<font color="#fff">Shop the Bargain Bin!<a href=#.html>
+							<font color="#fff"> Details
+			<td><img src="offers.png">
+			<td><a href=offers1.html style=text-decoration:none;>
+					<font color="#fff">Offers
+			<td><img src="shipping.png">
+			<td><a href=freeshipping1.html style=text-decoration:none;>
+					<font color="#fff">Free Shipping
+			<td><a href="login.html"><img src="login.png"></a></font>
+		</tr>
+	</table>
+	<table width="100%" bgcolor="#01233a" cellspacing="2" cellpadding=0>
+		<tr>
+			<td><img src="better.png">
+			<td align="right" width="30%"><select>
+					<option>Categories
+					<option>All Used Books Great optionion!
+					<option>New Books Find New Copies
+					<option>Bargain Bin!
+					<option>Fiction Books & Literature
+					<option>Textbooks
+			</td>
+			<td width="50%"><input class="input" placeholder="Search by Title, Author, or ISBN">
+			<td align="right"><a href=#.html><img src="search.png">
+			<td width="10%" align="right">
+
+				<a href=#.html><img src="ship to.png"><br><a href=#.html style=text-decoration:none;>
+						<font color="#fff">ship to
+			<td width="10%" align="center">
+				<a href=#.html><img src="cart.png" align="center"><a href=#.html style=text-decoration:none;>
+						<font color="#fff"><br>Cart
+			<td width="15%" align="center">
+				<a href=#.html><img src="account.png"><br><a href=#.html style=text-decoration:none;>
+						<font color="#fff">Account
+	</table><br><br>
+	<div align="center">
+		<h2>Login</h2>
+	</div>
+	<table align="center" width="80">
+		<tr>
+			<td>
+				<input placeholder="Your Email">
+				<br><br>
+				<input placeholder="Password" width="80">
+		<tr>
+			<td align="center">Forgot your password?
+		<tr>
+			<td>
+		<tr>
+			<td align="center"><a href=loginaccount.html><img src="IMG-20180202-WA0007.jpg">

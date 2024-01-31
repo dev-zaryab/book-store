@@ -1,0 +1,216 @@
+<head>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="favicon_io/site.webmanifest">
+	<link rel="icon" href="favicon.ico">
+
+	<title>
+		Computer Architecture
+	</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		input {
+			width: 100%;
+			padding: 12px;
+		}
+
+		select {
+			width: 40%;
+			padding: 12px;
+		}
+	</style>
+
+	<script>
+		/*		Disable F12 Key 
+
+	document.onkeypress = function (event) {  
+	event = (event || window.event);  
+	if (event.keyCode == 123) {  
+	return false;  
+	}  
+	}  
+	document.onmousedown = function (event) {  
+	event = (event || window.event);  
+	if (event.keyCode == 123) {  
+	return false;  
+	}  
+	}  
+	document.onkeydown = function (event) {  
+	event = (event || window.event);  
+	if (event.keyCode == 123) {  
+	return false;  
+	}  
+	}   
+*/
+
+		document.onkeydown = function (e) {
+			if (event.keyCode == 123) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+
+			if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+				alert("Don't Be So Smart!! This function has been disabled");
+				return false;
+			}
+		}
+	</script>
+
+	<script src="js/jquery.js"> </script>
+	<script src="js/remove-branding.js"> </script>
+
+</head>
+
+<!-- lock keyboard -->
+<script>
+	/* onkeydown="return false;" onmousedown="return false;" */
+</script>
+<!--// lock keyboard -->
+
+<body oncontextmenu="alert('Don\'t Be So Smart!! This function has been disabled'); return false">
+
+	<table width="100%" bgcolor=#044573>
+		<tr>
+			<td width="75%"><a href=#.html style=text-decoration:none;>
+					<font color="#fff">Shop the Bargain Bin!<a href=#.html>
+							<font color="#fff"> Details
+			<td><img src="offers.png">
+			<td><a href=#.html style=text-decoration:none;>
+					<font color="#fff">Offers
+			<td><img src="shipping.png">
+			<td><a href=#.html style=text-decoration:none;>
+					<font color="#fff">Free Shipping
+			<td><a href="login.html"><img src="login.png"></a></font>
+		</tr>
+	</table>
+	<table width="100%" bgcolor="#01233a" cellspacing="2" cellpadding=0>
+		<tr>
+			<td><img src="better.png">
+			<td align="right" width="30%"><select>
+					<option>Categories
+					<option>All Used Books Great optionion!
+					<option>New Books Find New Copies
+					<option>Bargain Bin!
+					<option>Fiction Books & Literature
+					<option>Textbooks
+			</td>
+			<td width="50%"><input placeholder="Search by Title, Author, or ISBN">
+			<td align="right"><a href=#.html><img src="search.png">
+			<td width="10%" align="right"><img src="ship to.png"><br>
+				<font color="#fff">ship to
+			<td width="10%" align="center"><img src="cart.png" align="center">
+				<font color="#fff"><br>Cart
+			<td width="15%" align="center"><img src="account.png"><br>
+				<font color="#fff">Account
+	</table>
+	<br>
+
+	<tr>
+		<td><img src="ComputerArchitecture.jpg" height="40%"></td>
+		<br>
+		<font size="5">
+			<h1><i>Computer Architecture</i></h2>
+		</font>
+		<hr color=black>
+		<font size="5">In computer engineering,<b> computer architecture </b> is a set of rules and methods
+			that describe the functionality, organization, and implementation of computer systems. Some definitions
+			of architecture define it as describing the capabilities and programming model of a computer but not
+			a particular implementation. In other definitions computer architecture involves instruction set
+			architecture design, microarchitecture design, logic design, and implementation.
+
+			<br>
+			<br>
+			<font size="3">
+				<h1><i>History</i></h2>
+			</font>
+			<hr color=black>
+			<p>The first documented computer architecture was in the correspondence between Charles Babbage
+				and Ada Lovelace, describing the analytical engine. When building the computer Z1 in 1936, Konrad
+				Zuse described in two patent applications for his future projects that machine instructions could be
+				stored in the same storage used for data, i.e. the stored-program concept.[3][4] Two other early and
+				important examples are:</p>
+
+			<ul>
+				<li>John von Neumann's 1945 paper, First Draft of a Report on the EDVAC, which described an
+					organization of logical elements; and
+				<li>Alan Turing's more detailed Proposed Electronic Calculator for the Automatic Computing Engine, also
+					1945 and which cited John von Neumann's paper.
+			</ul>
+
+			<br>
+			<font size="3">
+				<h1><i>Roles</i></h2>
+			</font>
+			<hr color=black>
+			<br>
+			<b>Definition</b>
+			<p>The purpose is to design a computer that maximizes performance while keeping power consumption
+				in check, costs low relative to the amount of expected performance, and is also very reliable. For
+				this,
+				many aspects are to be considered which includes instruction set design, functional organization, logic
+				design, and implementation. The implementation involves integrated circuit design, packaging, power,
+				and cooling. Optimization of the design requires familiarity with compilers, operating systems to logic
+				design, and packaging.</p>
+
+			<br>
+			<b>Computer organization</b>
+			<p>Computer organization helps optimize performance-based products. For example, software engineers
+				need to know the processing power of processors. They may need to optimize software in order to gain
+				the most performance for the lowest price. This can require quite detailed analysis of the computer's
+				organization. For example, in a SD card, the designers might need to arrange the card so that the most
+				data can be processed in the fastest possible way.</p>
+
+			<br>
+			<b>Implementation</b>
+			<p>Once an instruction set and micro-architecture are designed, a practical machine must be developed.
+				This design process is called the implementation. Implementation is usually not considered
+				architectural
+				design, but rather hardware design engineering. Implementation can be further broken down into
+				several steps:</p>
+			<ul>
+				<li><b>Logic Implementation </b>designs the circuits required at a logic gate level
+				<li><b>Circuit Implementation </b>does transistor-level designs of basic elements (gates, multiplexers,
+					latches etc.) as well as of some larger blocks (ALUs, caches etc.) that may be implemented at the
+					log gate level, or even at the physical level if the design calls for it.
+				<li><b>Physical Implementation </b>draws physical circuits. The different circuit components are placed
+					in a chip floorplan or on a board and the wires connecting them are created.
+				<li><b>Design Validation </b>tests the computer as a whole to see if it works in all situations and all
+					timings. Once the design validation process starts, the design at the logic level are tested using
+					logic emulators. However, this is usually too slow to run realistic test. So, after making
+					corrections based on the first test, prototypes are constructed using Field-Programmable
+					Gate-Arrays (FPGAs). Most hobby projects stop at this stage. The final step is to test prototype
+					integrated circuits. Integrated circuits may require several redesigns to fix problems.
+			</ul>
+
+			<br>
+			<font size="3">
+				<h1><i>References</i></h2>
+			</font>
+			<hr color=black>
+			<ol>
+				<li> Clements, Alan. Principles of Computer Hardware (Fourth ed.). p. 1. Architecture describes the
+					internal organization of a computer in an abstract way; that is, it defines the capabilities of the
+					computer and its programming model. You can have two computers that have been constructed in
+					different ways with different technologies but with the same architecture.
+				<li> Hennessy, John; Patterson, David. Computer Architecture: A Quantitative Approach (Fifth ed.). p.
+					11. This task has many aspects, including instruction set design, functional organization, logic
+					design, and implementation.
+				<li> "Electronic Digital Computers", Nature, 25 September 1948, retrieved
+				<li> Susanne Faber, "Konrad Zuses Bemuehungen um die Patentanmeldung der Z3", 2000
+				<li> Neumann, John (1945). First Draft of a Report on the EDVAC. p. 9.
+				<li> Reproduced in B. J. Copeland (Ed.), "Alan Turing's Automatic Computing Engine",
+				<li> Johnson, Lyle (1960). "A Description of Stretch" (PDF). p. 1. Retrieved 7 October 2017.
+				<li> Buchholz, Werner (1962). Planning a Computer System. p. 5.
+				<li> "System 360, From Computers to Computer Systems". IBM100. Retrieved 11 May 2017.
+			</ol>
